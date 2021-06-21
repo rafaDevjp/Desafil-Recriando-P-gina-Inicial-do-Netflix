@@ -1,0 +1,59 @@
+
+/**************  Style CSS  *************/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgb(20, 20, 20);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}   
+
+:root{
+    --primary-color: #e50914;
+    --dark-color: rgba(20, 20, 20, 0.933);
+}
+
+.svg-color{
+    fill: var(--primary-color);
+    line-height: normal;
+}
+
+.size-logo{
+    width: 140px;
+    height: auto;
+}
+
+.header-box{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border-bottom:.3px solid rgba(31, 31, 31, 0.452);
+}
+
+.nav-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding:0px 20px;
+    margin-top: auto;
+    border: solid 1px blanchedalmond;
+}
+
+.border{
+    border: .3px solid chartreuse;
+}
+
+.btn{
+    
+    border: solid var(--primary-color);
+    background: var(--primary-color);
+    color: whitesmoke;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+
