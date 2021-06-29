@@ -190,10 +190,10 @@ input[type=search]:focus{
 .banner-title{
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 35%;
     height: 100%;
     position: absolute;
-    left: 5%;
+    left: 10%;
     color: whitesmoke;
     background:transparent;
     /* border: solid 1px #e50914; */
@@ -215,7 +215,9 @@ input[type=search]:focus{
 
 .lista-filmes{
     color: var(--text-white-color);
-    margin: 30px 20px 4px 20px ;
+    /* margin: 30px 20px 4px 20px ; */
+    padding: 50px 0px 10px 10px;
+    align-items: flex-end;
 }
 
 
@@ -252,6 +254,18 @@ input[type=search]:focus{
     .navbar li{
         font-size: 14px;
         padding: 0px auto;
+    }
+
+    .banner-title{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        left: 5%;
+        color: whitesmoke;
+        background:transparent;
+        /* border: solid 1px #e50914; */
     }
 }
 @media screen and (max-width: 1194px ){
